@@ -8,6 +8,7 @@ import { NgClassComponent } from './components/ng-class/ng-class.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { DirectiveTestComponent } from './components/directive-test/directive-test.component';
 import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
     NgClassComponent,
     HighlightDirective,
     DirectiveTestComponent,
-    NgSwitchComponent
+    NgSwitchComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
